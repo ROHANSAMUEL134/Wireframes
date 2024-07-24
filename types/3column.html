@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Column</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        *{
+            margin:5px;
+        }
+        header{
+            width:80%;
+            height:100px;
+            background-color: mediumaquamarine;
+        }
+        
+        footer{
+            width:80%;
+            height:80px;
+            background-color: mediumseagreen;
+        }
+
+        .content, .mid{
+            display:flex;
+            justify-content: center;
+        }
+
+        .mid{
+            flex-direction: column;
+        }
+
+        .left-sidebar, .right-sidebar{
+            height: 380px;
+            width: 200px;
+            background-color: mediumpurple
+        }
+
+        .left-content, .right-content{
+            width: 588px;
+            height: 182px;
+            background-color: rgb(192, 76, 149);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>3-Column</h1>
+    <center>
+        <header>
+
+        </header>
+        <div class="content">
+            
+            <div class="left-sidebar">
+
+            </div>
+
+            <div class="mid">
+                <div class="left-content"></div>
+                <div class="right-content"></div>
+            </div>
+
+            <div class="left-sidebar">
+                
+            </div>
+
+        </div>
+        <footer>
+
+        </footer>
+    </center>
+</body>
+</html>
