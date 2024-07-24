@@ -11,3 +11,21 @@ h1{
     font-weight: 450;
     color: #0077A1;
 }
+
+img{
+    width:350px;
+    border: 2px solid #0077A1;
+    margin:10px;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
